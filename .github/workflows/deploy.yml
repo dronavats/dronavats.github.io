@@ -19,5 +19,5 @@ jobs:
       - name: Install, build, and upload
         uses: withastro/action@v3
         with:
-          pnpm-version: 9.0.0 # Add this line
+          node-version: 22 # Add this line
       
