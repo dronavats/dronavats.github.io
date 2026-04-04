@@ -17,26 +17,33 @@ const latestPosts = allPosts.sort(collectionDateSort).slice(0, MAX_POSTS);
 		<h2 class="title mb-6 text-xl">
 			About
 		</h2>
+
+<div class="grid gap-x-12 items-center sm:grid-cols-[2fr_1fr]">
+			
+			<div class="space-y-4">
 		<p class="mb-4">
-			Hi! I’m a McDonald Institute Theory Fellow in the Department of Physics at Carleton University 
-working on Beyond Standard Model (BSM) phenomenology. 
-My current research interests are broadly focused on the field of Particle Astrophysics, 
-and investigating problems at the intersection of particle physics and cosmology 
-that shed light on better understanding the neutrino sector, the nature and origin of dark matter, 
-and the baryon asymmetry of the universe.
+			Hi! I’m a McDonald Institute Theory Fellow in the Department of Physics at Carleton University, 
+working on physics beyond the Standard Model. Before starting at Carleton, I completed my PhD at 
+Instituto de Física Corpuscular - Universitat de València. 
 		</p>
 		<p class="mb-4">
-			Before starting at Carleton, I completed my PhD at Instituto de Física Corpuscular - Universitat de València, 
-where I worked on non-minimal extensions of the Standard Model, 
-in particular, extended dark sectors with multiple and asymmetric components, 
-as well as new neutrino mass models from extended scalar sectors.
+			 My current research interests are broadly focused on the field of Particle Astrophysics. I am interested in problems at the intersection of particle physics and cosmology 
+that can help us better undestand the nature and origin of dark matter, the origin of neutrino masses, and the matter-antimatter asymmetry of the universe. 
+See <a href="/about/">Research/a> for more details.
 		</p>
+</div>
+
+			<img 
+				src="/public/DronaV.webp"  alt="Drona Vatsyayan" 
+				class="mx-auto aspect-[3/4] w-full max-w-[280px] object-cover sm:mx-0 sm:order-last sm:max-w-none rounded-xl"
+			/>
+		</div>
 		<SocialList />
 	</section>
 
 	<section class="mt-16">
 		<h2 class="title mb-6 text-xl text-accent">
-			<a href="/posts/">Posts</a>
+			<a href="/posts/">Articles</a>
 		</h2>
 		<ul class="space-y-4" role="list">
 			{
